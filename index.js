@@ -15,8 +15,8 @@ const people = [
         occupation: 'Doctor'
     }
 ];
-function isDoctor (person){
-    return person.occupation==='Doctor';
+function isnurse (person){
+    return person.occupation==='nurse';
 }
 
-console.log(people.find(isDoctor).name);
+console.log(people.find(isnurse).name);
